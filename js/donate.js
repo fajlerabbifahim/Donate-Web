@@ -136,3 +136,6 @@ donateButton.addEventListener("click", function () {
   document.getElementById("history").classList.add("hidden");
   document.getElementById("donate-section").classList.remove("hidden");
 });
+document.getElementById("blog-btn").addEventListener("click", function () {
+  window.location.href = "blog.html";
+});
