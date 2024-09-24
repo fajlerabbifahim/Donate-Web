@@ -29,8 +29,8 @@ document.getElementById("noakhali-btn").addEventListener("click", function () {
   const historySection = document.createElement("div");
   historySection.className = " border border-gray-400 p-5 my-3 rounded-sm";
   historySection.innerHTML = `
-  <p class= 'font-bold'> ${noakhaliDonateAmount} Taka Donate for Flood at Noakhali, Bangladesh </p>
-   <p class= 'text-gray-500 text-sm'> Date: ${new Date()} </p> `;
+  <p class= 'font-bold'> ${noakhaliDonateAmount} Taka Thank you for your support. Your donation makes a difference. </p>
+   <p class= 'text-gray-500 text-sm'> Date: ${new Date().toLocaleString()} </p> `;
 
   document.getElementById("history").appendChild(historySection);
 
@@ -68,7 +68,7 @@ document.getElementById("feni-btn").addEventListener("click", function () {
   historySection.className = " border border-gray-400 p-5 my-3 rounded-sm";
   historySection.innerHTML = `
   <p class= 'font-bold'> ${feniDonateAmount} Taka Donate for Flood Relief in Feni,Bangladesh</p>
-   <p class= 'text-gray-500 text-sm'> Date: ${new Date()} </p> `;
+   <p class= 'text-gray-500 text-sm'> Date: ${new Date().toLocaleString()} </p> `;
 
   document.getElementById("history").appendChild(historySection);
   // input Clear
@@ -105,8 +105,8 @@ document.getElementById("quota-btn").addEventListener("click", function () {
   const historySection = document.createElement("div");
   historySection.className = " border border-gray-400 p-5 my-3 rounded-sm";
   historySection.innerHTML = `
-  <p class= 'font-bold'> ${quotaDonateAmount} Taka Donate for Injured in the Quota Movement,Bangladesh</p>
-   <p class= 'text-gray-500 text-sm'> Date: ${new Date()} </p> `;
+  <p class= 'font-bold'> ${quotaDonateAmount} Taka Thank you for your support. Your donation aids injured protesters.</p>
+   <p class= 'text-gray-500 text-sm'> Date: ${new Date().toLocaleString()} </p> `;
 
   document.getElementById("history").appendChild(historySection);
   // input Clear
